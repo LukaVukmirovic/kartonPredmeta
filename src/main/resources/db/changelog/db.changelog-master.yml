@@ -1,0 +1,19 @@
+## YAML Template.
+---
+databaseChangeLog:
+  - include:
+      file: changes/001-tabele.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/002-predmet.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/003-literatura.sql
+      relativeToChangelogFile: true
+  - include:
+      file: changes/004-ocenjivanje.sql
+      relativeToChangelogFile: true
+  - include:
+      file: data/005-podaci.sql
+      relativeToChangelogFile: true
+      
